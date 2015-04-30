@@ -3,7 +3,7 @@
 /**
  * @ORM\OneToMany(targetEntity="$3", mappedBy="$4"$5)
  */
- ${2:private} \$${1:$SELECTION};
+${2:protected} \$${1:$SELECTION};
 ]]></content>
     <tabTrigger>sfonetomanycolumn</tabTrigger>
     <scope>source.php</scope>

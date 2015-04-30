@@ -4,7 +4,7 @@
  * @ORM\ManyToOne(targetEntity="$2")
  * @ORM\JoinColumn(name="${4:${1/([[:upper:]]+)/(?1_\l$1:)/g}}", referencedColumnName="${3:id}"$5)
  */
- ${2:private} \$${1:$SELECTION};
+${2:protected} \$${1:$SELECTION};
 ]]></content>
     <tabTrigger>sfmanytoonecolumn</tabTrigger>
     <scope>source.php</scope>
